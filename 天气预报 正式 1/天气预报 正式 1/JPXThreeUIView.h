@@ -1,18 +1,19 @@
 //
-//  JPXFirstUIView.h
+//  JPXThreeUIView.h
 //  天气预报 正式 1
 //
-//  Created by 萨缪 on 2018/8/14.
+//  Created by 萨缪 on 2018/8/16.
 //  Copyright © 2018年 萨缪. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface JPXFirstUIView : UIView
+@interface JPXThreeUIView : UIView
 <
 UITableViewDelegate,
 UITableViewDataSource
 >
+
 {
     UITableView * _tableView;
     
@@ -89,7 +90,4 @@ UITableViewDataSource
 
 
 - (instancetype)initWithFrame:(CGRect)frame andcityString:(NSString *)ciString;
-
-
-
 @end
